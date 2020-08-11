@@ -4,6 +4,94 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    
+    <Button
+        android:id="@+id/frame_button1"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/btn_selector"
+        android:text="@string/frame_btn1_name"
+        android:layout_marginTop="@dimen/button_margin_top"/>
+
+    <Button
+        android:id="@+id/frame_button2"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/btn_selector"
+        android:text="@string/frame_btn2_name"
+        android:layout_marginTop="@dimen/button_margin_top"/>
+
+    <Button
+        android:id="@+id/frame_button3"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/btn_selector"
+        android:text="@string/frame_btn3_name"
+        android:layout_marginTop="@dimen/button_margin_top"/>
+
+    <Button
+        android:id="@+id/frame_button4"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/btn_selector"
+        android:text="@string/frame_btn4_name"
+        android:layout_marginTop="@dimen/button_margin_top"/>
+
+    <Button
+        android:id="@+id/frame_button5"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/btn_selector"
+        android:text="@string/frame_btn5_name"
+        android:layout_marginTop="@dimen/button_margin_top"/>
+
+    <Button
+        android:id="@+id/frame_button6"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/btn_selector"
+        android:text="@string/frame_btn6_name"
+        android:layout_marginTop="@dimen/button_margin_top"/>
+
+    <Button
+        android:id="@+id/frame_button7"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/btn_selector"
+        android:text="@string/frame_btn7_name"
+        android:layout_marginTop="@dimen/button_margin_top"/>
+
+    <Button
+        android:id="@+id/frame_button8"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/btn_selector"
+        android:text="@string/frame_btn8_name"
+        android:layout_marginTop="@dimen/button_margin_top"/>
+
+    <Button
+        android:id="@+id/frame_button9"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/btn_selector"
+        android:text="@string/frame_btn9_name"
+        android:layout_marginTop="@dimen/button_margin_top"/>
+
+    <Button
+        android:id="@+id/frame_button10"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/btn_selector"
+        android:text="@string/frame_btn10_name"
+        android:layout_marginTop="@dimen/button_margin_top"/>
 
 </FrameLayout>

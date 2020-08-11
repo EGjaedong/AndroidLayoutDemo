@@ -1,6 +1,17 @@
 <resources>
     <string name="app_name">线性布局示例</string>
     <string name="btn1_name">按钮1</string>
-    <string name="btn2_name">按钮2</string>
+    <string name="btn2_name">帧布局</string>
     <string name="btn3_name">按钮3</string>
+    <string name="frame_btn1_name">按钮1</string>
+    <string name="frame_btn2_name">按钮2</string>
+    <string name="frame_btn3_name">按钮3</string>
+    <string name="frame_btn4_name">按钮4</string>
+    <string name="frame_btn5_name">按钮5</string>
+    <string name="frame_btn6_name">按钮6</string>
+    <string name="frame_btn7_name">按钮7</string>
+    <string name="frame_btn8_name">按钮8</string>
+    <string name="frame_btn9_name">按钮9</string>
+    <string name="frame_btn10_name">按钮10</string>
+
 </resources>

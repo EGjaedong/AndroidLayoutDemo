@@ -14,7 +14,7 @@
         android:layout_marginTop="@dimen/button_margin_top"/>
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btnFrameLayout"
         android:layout_width="@dimen/button_width"
         android:layout_height="@dimen/button_height"
         android:layout_gravity="center_horizontal"
