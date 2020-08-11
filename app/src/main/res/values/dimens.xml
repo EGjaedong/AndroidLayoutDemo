@@ -7,5 +7,6 @@
     <dimen name="go_back_size">20dp</dimen>
     <dimen name="con_hello_width">65dp</dimen>
     <dimen name="con_hello_height">40dp</dimen>
-    <dimen name="con_hello_margin">60dp</dimen>
+    <dimen name="con_hello_margin">50dp</dimen>
+    <dimen name="con_image_margin">30dp</dimen>
 </resources>
