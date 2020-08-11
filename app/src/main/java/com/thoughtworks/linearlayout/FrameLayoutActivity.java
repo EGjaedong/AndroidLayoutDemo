@@ -52,8 +52,6 @@ public class FrameLayoutActivity extends AppCompatActivity {
         createButtons();
 
         Button mainActivity = (Button) findViewById(FRAMEBTNIDBASE + FRAMEJUMPTOMAINBTNIDOFFSET);
-        Button goBack = (Button) findViewById(R.id.goBackToMainFromFrame);
         mainActivity.setOnClickListener(jumpToMainActivity);
-        goBack.setOnClickListener(jumpToMainActivity);
     }
 }

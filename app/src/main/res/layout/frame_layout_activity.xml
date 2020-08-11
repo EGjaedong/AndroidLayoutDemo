@@ -6,13 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".FrameLayoutActivity">
 
-    <Button
-        android:id="@+id/goBackToMainFromFrame"
-        android:layout_width="@dimen/go_back_size"
-        android:layout_height="@dimen/go_back_size"
-        android:background="@color/back_color"
-        android:text="@string/go_back"/>
-
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
