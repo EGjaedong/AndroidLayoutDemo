@@ -1,9 +1,10 @@
 <resources>
     <string name="app_name">LinearLayoutDemo</string>
-    <string name="btn1_name">button1</string>
+    <string name="btn1_name">constraint_layout</string>
     <string name="btn2_name">frame_layout</string>
     <string name="btn3_name">button3</string>
 
     <string name="frame_btn_name">button</string>
     <string name="go_back"><![CDATA[<]]></string>
+    <string name="constraint_hello">Hello</string>
 </resources>
