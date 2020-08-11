@@ -6,6 +6,15 @@
     android:layout_height="match_parent"
     tools:context=".ConstraintActivity">
 
+    <Button
+        android:id="@+id/goBackToMainFromConstraint"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@color/back_color"
+        android:text="@string/go_back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"

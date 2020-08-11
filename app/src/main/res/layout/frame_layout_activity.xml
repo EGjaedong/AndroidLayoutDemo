@@ -5,9 +5,9 @@
     android:layout_height="match_parent">
 
     <Button
-        android:id="@+id/goBackToMainActivity"
-        android:layout_width="45dp"
-        android:layout_height="45dp"
+        android:id="@+id/goBackToMainFromFrame"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
         android:background="@color/back_color"
         android:text="@string/go_back"/>
 

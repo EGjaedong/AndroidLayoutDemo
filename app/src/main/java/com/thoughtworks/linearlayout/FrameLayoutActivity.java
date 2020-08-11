@@ -18,11 +18,8 @@ public class FrameLayoutActivity extends Activity {
     private View.OnClickListener jumpToMainActivity = new View.OnClickListener() {
         @Override
         public void onClick(View view) {
-            if (view.getId() == (FRAMEBTNIDBASE + FRAMEJUMPTOMAINBTNIDOFFSET)) {
-                Intent intent = new Intent(FrameLayoutActivity.this,
-                        MainActivity.class);
-                startActivity(intent);
-            }
+            Intent intent = new Intent(FrameLayoutActivity.this, MainActivity.class);
+            startActivity(intent);
         }
     };
 
@@ -55,7 +52,7 @@ public class FrameLayoutActivity extends Activity {
         createButtons();
 
         Button mainActivity = (Button) findViewById(FRAMEBTNIDBASE + FRAMEJUMPTOMAINBTNIDOFFSET);
-        Button goBack =  (Button) findViewById(R.id.goBackToMainActivity);
+        Button goBack = (Button) findViewById(R.id.goBackToMainFromFrame);
         mainActivity.setOnClickListener(jumpToMainActivity);
         goBack.setOnClickListener(jumpToMainActivity);
     }

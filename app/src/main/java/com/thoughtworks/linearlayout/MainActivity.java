@@ -32,7 +32,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Button frameButton = (Button) findViewById(R.id.btnFrameLayout);
+        Button constraintButton = (Button) findViewById(R.id.btnConstraintLayout);
         frameButton.setOnClickListener(jumpToLayout);
-
+        constraintButton.setOnClickListener(jumpToLayout);
     }
 }
