@@ -18,7 +18,7 @@
     <dimen name="image_width">100dp</dimen>
     <dimen name="con_image_margin_top">60dp</dimen>
 
-    <dimen name="signUp_margin_top">150dp</dimen>
+    <dimen name="signUp_margin_top">120dp</dimen>
 
     <dimen name="login_margin_top">20dp</dimen>
 </resources>
