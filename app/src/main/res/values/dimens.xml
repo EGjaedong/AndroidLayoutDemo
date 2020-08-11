@@ -7,7 +7,7 @@
 
     <dimen name="scroll_margin_top">26dp</dimen>
 
-    <dimen name="go_back_size">20dp</dimen>
+    <dimen name="go_back_size">30dp</dimen>
 
 
     <dimen name="con_hello_width">65dp</dimen>
