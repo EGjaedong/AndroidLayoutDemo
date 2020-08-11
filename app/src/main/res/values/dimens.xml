@@ -4,4 +4,8 @@
     <dimen name="button_height">60dp</dimen>
     <dimen name="button_margin_top">40dp</dimen>
     <dimen name="scroll_margin_top">26dp</dimen>
+    <dimen name="go_back_size">20dp</dimen>
+    <dimen name="con_hello_width">65dp</dimen>
+    <dimen name="con_hello_height">40dp</dimen>
+    <dimen name="con_hello_margin">60dp</dimen>
 </resources>

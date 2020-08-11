@@ -6,6 +6,6 @@
 
     <string name="frame_btn_name">按钮</string>
     <string name="go_back"><![CDATA[<]]></string>
-    <string name="constraint_hello">Hello</string>
+    <string name="constraint_hello">Hello!</string>
 
 </resources>

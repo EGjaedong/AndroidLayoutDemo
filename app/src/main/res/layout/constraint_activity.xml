@@ -8,8 +8,8 @@
 
     <Button
         android:id="@+id/goBackToMainFromConstraint"
-        android:layout_width="20dp"
-        android:layout_height="20dp"
+        android:layout_width="@dimen/go_back_size"
+        android:layout_height="@dimen/go_back_size"
         android:background="@color/back_color"
         android:text="@string/go_back"
         app:layout_constraintStart_toStartOf="parent"
@@ -17,12 +17,14 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="10dp"
+        android:layout_width="@dimen/con_hello_width"
+        android:layout_height="@dimen/con_hello_height"
         android:text="@string/constraint_hello"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintLeft_toLeftOf="@+id/goBackToMainFromConstraint"
+        app:layout_constraintTop_toTopOf="@+id/goBackToMainFromConstraint"
+        android:layout_marginStart="@dimen/con_hello_margin"
+        android:layout_marginTop="@dimen/con_hello_margin"
+        android:autoSizeTextType="uniform"
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

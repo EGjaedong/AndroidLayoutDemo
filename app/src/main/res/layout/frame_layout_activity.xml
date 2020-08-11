@@ -6,8 +6,8 @@
 
     <Button
         android:id="@+id/goBackToMainFromFrame"
-        android:layout_width="20dp"
-        android:layout_height="20dp"
+        android:layout_width="@dimen/go_back_size"
+        android:layout_height="@dimen/go_back_size"
         android:background="@color/back_color"
         android:text="@string/go_back"/>
 
