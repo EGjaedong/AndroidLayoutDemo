@@ -3,24 +3,32 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
     android:background="@color/main_activity_backgroundColor">
 
     <Button
+        android:id="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/btn_selector"
         android:text="button1"
-        android:layout_marginTop="@dimen/button_margin"/>
+        android:layout_marginTop="@dimen/button_margin_top"/>
 
     <Button
+        android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="button1"
-        android:layout_marginTop="@dimen/button_margin"/>
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/btn_selector"
+        android:text="button2"
+        android:layout_marginTop="@dimen/button_margin_top"/>
 
     <Button
+        android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="button1"
-        android:layout_marginTop="@dimen/button_margin"/>
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/btn_selector"
+        android:text="button3"
+        android:layout_marginTop="@dimen/button_margin_top"/>
 </LinearLayout>

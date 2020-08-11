@@ -4,4 +4,6 @@
     <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">#03DAC5</color>
     <color name="main_activity_backgroundColor">#03A9F4</color>
+    <color name="btn_normal_background_color">#BAABAA</color>
+    <color name="btn_pressed_background_color">#736968</color>
 </resources>
