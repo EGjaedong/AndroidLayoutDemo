@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">LinearLayoutDemo</string>
+    <string name="app_name">LayoutDemo</string>
     <string name="btn1_name">constraint_layout</string>
     <string name="btn2_name">frame_layout</string>
     <string name="btn3_name">button3</string>

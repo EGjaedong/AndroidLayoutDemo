@@ -1,6 +1,5 @@
 package com.thoughtworks.linearlayout;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.TypedValue;
@@ -10,8 +9,9 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 
 import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
 
-public class FrameLayoutActivity extends Activity {
+public class FrameLayoutActivity extends AppCompatActivity {
     private static final int FRAMEBTNIDBASE = 2000;
     private static final int FRAMEJUMPTOMAINBTNIDOFFSET = 1;
 
