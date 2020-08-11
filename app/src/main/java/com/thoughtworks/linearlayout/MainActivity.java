@@ -9,15 +9,22 @@ import android.view.View;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
-    private View.OnClickListener jump = new View.OnClickListener() {
+    private View.OnClickListener jumpToLayout = new View.OnClickListener() {
         @Override
         public void onClick(View view) {
-            if (view.getId() == R.id.btnFrameLayout) {
-                Intent intent = new Intent(MainActivity.this, FrameLayoutActivity.class);
-                startActivity(intent);
+            Intent intent = null;
+            switch (view.getId()) {
+                case R.id.btnFrameLayout:
+                    intent = new Intent(MainActivity.this, FrameLayoutActivity.class);
+                    break;
+                case R.id.btnConstraintLayout:
+                    intent = new Intent(MainActivity.this, ConstraintActivity.class);
+                    break;
             }
+            startActivity(intent);
         }
     };
+
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -25,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Button frameButton = (Button) findViewById(R.id.btnFrameLayout);
-        frameButton.setOnClickListener(jump);
+        frameButton.setOnClickListener(jumpToLayout);
+
     }
 }
