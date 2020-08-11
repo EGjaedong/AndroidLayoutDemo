@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="button_margin_top">40dp</dimen>
     <dimen name="button_width">320dp</dimen>
     <dimen name="button_height">60dp</dimen>
+    <dimen name="button_margin_top">40dp</dimen>
+    <dimen name="scroll_margin_top">45dp</dimen>
 </resources>

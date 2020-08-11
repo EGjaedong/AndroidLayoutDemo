@@ -5,4 +5,5 @@
     <string name="btn3_name">button3</string>
 
     <string name="frame_btn_name">button</string>
+    <string name="go_back"><![CDATA[<]]></string>
 </resources>

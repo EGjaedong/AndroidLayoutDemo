@@ -8,7 +8,6 @@ import android.view.Gravity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
-import android.widget.TextView;
 
 import androidx.annotation.Nullable;
 
@@ -56,6 +55,8 @@ public class FrameLayoutActivity extends Activity {
         createButtons();
 
         Button mainActivity = (Button) findViewById(FRAMEBTNIDBASE + FRAMEJUMPTOMAINBTNIDOFFSET);
+        Button goBack =  (Button) findViewById(R.id.goBackToMainActivity);
         mainActivity.setOnClickListener(jumpToMainActivity);
+        goBack.setOnClickListener(jumpToMainActivity);
     }
 }
