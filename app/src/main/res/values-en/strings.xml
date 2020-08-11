@@ -3,14 +3,6 @@
     <string name="btn1_name">button1</string>
     <string name="btn2_name">frame_layout</string>
     <string name="btn3_name">button3</string>
-    <string name="frame_btn1_name">button1</string>
-    <string name="frame_btn2_name">button2</string>
-    <string name="frame_btn3_name">button3</string>
-    <string name="frame_btn4_name">button4</string>
-    <string name="frame_btn5_name">button5</string>
-    <string name="frame_btn6_name">button6</string>
-    <string name="frame_btn7_name">button7</string>
-    <string name="frame_btn8_name">button8</string>
-    <string name="frame_btn9_name">button9</string>
-    <string name="frame_btn10_name">button10</string>
+
+    <string name="frame_btn_name">button</string>
 </resources>
