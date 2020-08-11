@@ -22,24 +22,48 @@
         android:text="@string/constraint_hello"
         app:layout_constraintLeft_toRightOf="@+id/goBackToMainFromConstraint"
         app:layout_constraintTop_toBottomOf="@+id/goBackToMainFromConstraint"
-        android:layout_marginStart="@dimen/con_hello_margin"
-        android:layout_marginTop="@dimen/con_hello_margin"
+        android:layout_marginStart="@dimen/con_hello_margin_left"
+        android:layout_marginTop="@dimen/con_hello_margin_top"
         android:autoSizeTextType="uniform"
         />
 
     <ImageView
         android:id="@+id/image"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="@dimen/image_width"
+        android:layout_height="@dimen/image_height"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintVertical_bias="0.65"
+        app:layout_constraintVertical_bias="0.6"
         app:layout_constraintTop_toBottomOf="parent"
         app:layout_constraintBottom_toTopOf="parent"
-        android:layout_marginTop="@dimen/con_hello_margin"
+        android:layout_marginTop="@dimen/con_image_margin_top"
         android:src="@mipmap/star"
         android:scaleType="centerInside"
+        />
+
+    <Button
+        android:id="@+id/signUp"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        app:layout_constraintTop_toBottomOf="@+id/image"
+        android:layout_marginTop="@dimen/signUp_margin_top"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:text="@string/sign_up"
+        />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        app:layout_constraintTop_toBottomOf="@+id/signUp"
+        android:layout_marginTop="@dimen/login_margin_top"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:text="@string/login"
         />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

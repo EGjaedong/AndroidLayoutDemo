@@ -23,6 +23,8 @@ public class ConstraintActivity extends Activity {
         setContentView(R.layout.constraint_activity);
 
         Button goBack = (Button) findViewById(R.id.goBackToMainFromConstraint);
+        Button login = (Button) findViewById(R.id.login);
         goBack.setOnClickListener(jumpToMainActivity);
+        login.setOnClickListener(jumpToMainActivity);
     }
 }
