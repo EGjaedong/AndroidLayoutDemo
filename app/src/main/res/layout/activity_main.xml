@@ -1,33 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
     <Button
         android:id="@+id/btnConstraintLayout"
         android:layout_width="@dimen/button_width"
         android:layout_height="@dimen/button_height"
         android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/button_margin_top"
         android:background="@drawable/btn_selector"
         android:text="@string/btn1_name"
-        android:layout_marginTop="@dimen/button_margin_top"/>
+        android:textAllCaps="false"/>
+        <!-- 强制关闭大写 -->
 
     <Button
         android:id="@+id/btnFrameLayout"
         android:layout_width="@dimen/button_width"
         android:layout_height="@dimen/button_height"
         android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/button_margin_top"
         android:background="@drawable/btn_selector"
-        android:text="@string/btn2_name"
-        android:layout_marginTop="@dimen/button_margin_top"/>
+        android:text="@string/btn2_name" />
 
     <Button
         android:id="@+id/button3"
         android:layout_width="@dimen/button_width"
         android:layout_height="@dimen/button_height"
         android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/button_margin_top"
         android:background="@drawable/btn_selector"
-        android:text="@string/btn3_name"
-        android:layout_marginTop="@dimen/button_margin_top"/>
+        android:text="@string/btn3_name" />
 </LinearLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">布局示例</string>
+    <string name="btn1_name">约束布局</string>
+    <string name="btn2_name">帧布局</string>
+    <string name="btn3_name">按钮3</string>
+
+    <string name="frame_btn_name">按钮%d</string>
+    <string name="constraint_hello">你好!</string>
+    <string name="sign_up">注册</string>
+    <string name="login">登录</string>
+
+</resources>

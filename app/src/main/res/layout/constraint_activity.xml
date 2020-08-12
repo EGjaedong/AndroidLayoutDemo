@@ -11,51 +11,48 @@
         android:id="@+id/helloTest"
         android:layout_width="@dimen/con_hello_width"
         android:layout_height="@dimen/con_hello_height"
-        android:text="@string/constraint_hello"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
         android:layout_marginStart="@dimen/con_hello_margin_left"
         android:layout_marginTop="@dimen/con_hello_margin_top"
         android:autoSizeTextType="uniform"
-        />
+        android:text="@string/constraint_hello"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/image"
         android:layout_width="@dimen/image_width"
         android:layout_height="@dimen/image_height"
+        android:layout_marginTop="@dimen/con_image_margin_top"
+        android:contentDescription="@string/image"
+        android:scaleType="centerInside"
+        android:src="@mipmap/star"
+        app:layout_constraintBottom_toTopOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintVertical_bias="0.6"
         app:layout_constraintTop_toBottomOf="parent"
-        app:layout_constraintBottom_toTopOf="parent"
-        android:layout_marginTop="@dimen/con_image_margin_top"
-        android:src="@mipmap/star"
-        android:scaleType="centerInside"
-        />
+        app:layout_constraintVertical_bias="0.6" />
 
     <Button
         android:id="@+id/signUp"
         android:layout_width="@dimen/button_width"
         android:layout_height="@dimen/button_height"
-        app:layout_constraintTop_toBottomOf="@+id/image"
         android:layout_marginTop="@dimen/signUp_margin_top"
+        android:text="@string/sign_up"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        android:text="@string/sign_up"
-        />
+        app:layout_constraintTop_toBottomOf="@+id/image" />
 
     <Button
         android:id="@+id/login"
         android:layout_width="@dimen/button_width"
         android:layout_height="@dimen/button_height"
-        app:layout_constraintTop_toBottomOf="@+id/signUp"
         android:layout_marginTop="@dimen/login_margin_top"
+        android:text="@string/login"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        android:text="@string/login"
-        />
+        app:layout_constraintTop_toBottomOf="@+id/signUp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

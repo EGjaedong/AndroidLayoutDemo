@@ -12,8 +12,8 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class FrameLayoutActivity extends AppCompatActivity {
-    private static final int FRAMEBTNIDBASE = 2000;
-    private static final int FRAMEJUMPTOMAINBTNIDOFFSET = 1;
+    private static final int FRAME_BTN_ID_BASE = 2000;
+    private static final int FRAME_JUMP_TO_MAIN_BTN_ID_OFFSET = 1;
 
     private View.OnClickListener jumpToMainActivity = new View.OnClickListener() {
         @Override
@@ -24,22 +24,22 @@ public class FrameLayoutActivity extends AppCompatActivity {
     };
 
     private void createButtons() {
-        LinearLayout linearLayout = (LinearLayout) findViewById(R.id.frameLinearLayoutChild);
+        LinearLayout linearLayout = (LinearLayout) findViewById(R.id.frame_linear_layout_child);
         int height = (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 60,
                 getResources().getDisplayMetrics());
         int width = (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 320,
                 getResources().getDisplayMetrics());
-        LinearLayout.LayoutParams btn_param = new LinearLayout.LayoutParams(width, height);
-        btn_param.topMargin = (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 40,
+        LinearLayout.LayoutParams btnParam = new LinearLayout.LayoutParams(width, height);
+        btnParam.topMargin = (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 40,
                 getResources().getDisplayMetrics());
-        btn_param.gravity = Gravity.CENTER_HORIZONTAL;
+        btnParam.gravity = Gravity.CENTER_HORIZONTAL;
 
         Button[] buttons = new Button[10];
         for (int i = 0; i < buttons.length; i++) {
             buttons[i] = new Button(this);
-            buttons[i].setId(FRAMEBTNIDBASE + FRAMEJUMPTOMAINBTNIDOFFSET);
-            buttons[i].setLayoutParams(btn_param);
-            buttons[i].setText(getString(R.string.frame_btn_name) + (i + 1));
+            buttons[i].setId(FRAME_BTN_ID_BASE + (FRAME_JUMP_TO_MAIN_BTN_ID_OFFSET * (i + 1)));
+            buttons[i].setLayoutParams(btnParam);
+            buttons[i].setText(getString(R.string.frame_btn_name, i + 1));
             linearLayout.addView(buttons[i]);
         }
     }
@@ -51,7 +51,7 @@ public class FrameLayoutActivity extends AppCompatActivity {
 
         createButtons();
 
-        Button mainActivity = (Button) findViewById(FRAMEBTNIDBASE + FRAMEJUMPTOMAINBTNIDOFFSET);
+        Button mainActivity = (Button) findViewById(FRAME_BTN_ID_BASE + FRAME_JUMP_TO_MAIN_BTN_ID_OFFSET);
         mainActivity.setOnClickListener(jumpToMainActivity);
     }
 }
