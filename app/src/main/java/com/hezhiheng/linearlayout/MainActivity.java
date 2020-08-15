@@ -1,4 +1,4 @@
-package com.thoughtworks.linearlayout;
+package com.hezhiheng.linearlayout;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;

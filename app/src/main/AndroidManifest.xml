@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.thoughtworks.linearlayout">
+    package="com.hezhiheng.linearlayout">
 
     <application
         android:allowBackup="true"
@@ -10,14 +10,14 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".ConstraintActivity"
-            android:parentActivityName=".MainActivity">
+            android:name="com.hezhiheng.linearlayout.ConstraintActivity"
+            android:parentActivityName="com.hezhiheng.linearlayout.MainActivity">
         </activity>
         <activity
-            android:name=".FrameLayoutActivity"
-            android:parentActivityName=".MainActivity">
+            android:name="com.hezhiheng.linearlayout.FrameLayoutActivity"
+            android:parentActivityName="com.hezhiheng.linearlayout.MainActivity">
         </activity>
-        <activity android:name=".MainActivity">
+        <activity android:name="com.hezhiheng.linearlayout.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

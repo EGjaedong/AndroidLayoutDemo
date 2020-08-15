@@ -1,4 +1,4 @@
-package com.thoughtworks.linearlayout;
+package com.hezhiheng.linearlayout;
 
 import android.content.Context;
 

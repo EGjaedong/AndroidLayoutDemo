@@ -8,5 +8,6 @@
     <string name="constraint_hello">Hello!</string>
     <string name="sign_up">Signup</string>
     <string name="login">Login</string>
-    <string name="image">TODO</string>
+    <string name="image">image</string>
+    <string name="android_practice">Android practice</string>
 </resources>

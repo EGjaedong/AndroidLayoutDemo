@@ -1,6 +1,5 @@
-package com.thoughtworks.linearlayout;
+package com.hezhiheng.linearlayout;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.util.TypedValue;
 import android.view.Gravity;
@@ -18,8 +17,10 @@ public class FrameLayoutActivity extends AppCompatActivity {
     private View.OnClickListener jumpToMainActivity = new View.OnClickListener() {
         @Override
         public void onClick(View view) {
-            Intent intent = new Intent(FrameLayoutActivity.this, MainActivity.class);
-            startActivity(intent);
+            FrameLayoutActivity.this.finish();
+            /* 下面这种写法不合理，这样会创建一个新的Activity，而不是pop出后退栈的栈顶Activity */
+            /*Intent intent = new Intent(FrameLayoutActivity.this, MainActivity.class);
+            startActivity(intent);*/
         }
     };
 
